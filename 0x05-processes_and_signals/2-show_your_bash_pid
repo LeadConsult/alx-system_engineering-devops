@@ -2,4 +2,4 @@
 
 #A bash script that displays lines containing the bash word
 
-ps auxf | grep bash
+ps -auxf | grep bash
