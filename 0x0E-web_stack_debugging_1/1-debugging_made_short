@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#  fix short and sweet
+
+sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
+# Gracefully stop and restart Nginx service
+systemctl restart nginx
+
