@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-"""Transform the task list information for a specified employee ID into a 
-    Comma Separated Values format for export purposes."""
+"""Transform the task list information for a specified employee
+ID into a Comma Separated Values format for export purposes."""
 import csv
 import requests
 import sys
