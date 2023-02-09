@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Convert the To-Do list data for a specific employee ID into a CSV format for exporting."""
+"""Transform the task list information for a specified employee ID into a 
+    Comma Separated Values format for export purposes."""
 import csv
 import requests
 import sys
